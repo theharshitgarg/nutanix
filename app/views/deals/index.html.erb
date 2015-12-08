@@ -1,0 +1,19 @@
+<p id="notice"><%= notice %></p>
+
+<div class="deal">
+   <% @deals.each do |deal| %>
+      
+        <%= deal.name.titleize %>
+        Rating: <%= deal.rating %>
+        <br/> 
+        Price:
+        <%= deal.actual_price %>
+        <br/>
+        Discounted Price:
+        <%= deal.actual_price*(100-deal.discount)/100 %>
+        <br/>   
+        'Provider:' <%= link_to deal.provider, deal.link %>
+        <center><%= image_tag deal.image %> </center> 
+    <% end %>
+</div>   
+<br>

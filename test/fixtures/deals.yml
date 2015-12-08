@@ -1,0 +1,19 @@
+# Read about fixtures at http://api.rubyonrails.org/classes/ActiveRecord/FixtureSet.html
+
+one:
+  name: MyText
+  actual_price: 1
+  discount: 1.5
+  rating: 1
+  provider: MyString
+  link: MyText
+  image: MyText
+
+two:
+  name: MyText
+  actual_price: 1
+  discount: 1.5
+  rating: 1
+  provider: MyString
+  link: MyText
+  image: MyText
